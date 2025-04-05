@@ -1,0 +1,42 @@
+.home {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 0 20px;
+  }
+  
+  .home h1 {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+    text-align: center;
+    color: #333;
+  }
+  
+  .postList {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .postItem {
+    background: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    transition: transform 0.2s ease;
+  }
+  
+  .postItem:hover {
+    transform: translateY(-2px);
+  }
+  
+  .postItem a {
+    color: #007bff;
+    font-size: 1.2rem;
+    text-decoration: none;
+    font-weight: 600;
+  }
+  
+  .postItem a:hover {
+    text-decoration: underline;
+  }
+  
